@@ -49,6 +49,7 @@ color: white;
 padding: 9px;
     display: block;
     -o-transition: 05s;
+    transition-delay: 05s;
     transition: 05s;
     }
             .nav{
