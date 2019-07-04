@@ -1,0 +1,234 @@
+@media only screen and (max-width: 800px) {
+  .footer{
+    margin-top: 20px;
+    padding-top: 20px;
+
+ max-height: 800px;   
+  }  
+  
+  
+  .footer-attr{
+        display: block;
+        width: 100%;
+        height: auto;
+        text-align: left;
+        color: white;
+        height: 620px;
+
+        }
+
+
+    .footer-attr1{
+        width:100%;
+      
+        float: left;
+        }
+        .footer-attr2{
+            width:100%;
+           
+            float: left;
+         }
+          
+         .footer-attr3{
+            width:100%;
+          
+            float: left;
+        }
+        
+        .footer-attr4{
+            width:100%;
+            
+            float: left;
+            
+            }
+
+
+.mob-nav{
+background-color: black;
+color: white;
+padding: 9px;
+    display: block;
+    -o-transition: 05s;
+    transition: 05s;
+    }
+            .nav{
+                display: none;
+             }
+             .nav ul{
+                 width: 100%;
+                 text-align: center;
+             }
+             .nav ul li{
+                 display: inline;
+                 padding: 10px 5px;
+                 text-align: center;
+                
+             }
+
+
+             .topnav {
+           margin-left: 0%;
+             }
+            
+             .slider-wrapper {
+                width: 100%;
+                height: 300px;
+                position: relative;
+            }
+            
+
+  }
+
+
+  
+@media screen and (max-width: 800px) {
+.topnav .socialpro{
+ display: none;
+
+
+}
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .topnav.responsive {position:sticky;
+    
+    }
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+     
+    
+    z-index: 999;
+    }
+
+
+    .topnav.responsive .socialpro{
+      float: none;
+      display: inline-table;
+      padding: 10px;
+     
+    }
+    
+    .topnav.responsive .socialpro a{
+      float: none;
+      display: inline;
+      color: black;
+          
+    } 
+
+    .Content-faq{
+      margin: 10px;
+      padding: 20px;
+      
+      
+      }
+
+      .out{
+       height: 1000px;
+      width: 100%;
+      display: block;
+      background-color: white;
+      }
+   
+      .in{
+        float: left;
+     width: 100%;
+     margin:0px;
+      
+      }
+      
+      .in2{
+        float: left;
+        width: 100%;
+        margin:0px;
+       padding-left: 10px;
+      padding-top:10px; 
+     
+      }
+      
+      .homebody{
+        display:block;
+        text-align: center;
+        margin: 10px;
+  
+        height: 1700;
+        }
+      
+      .box-cont{
+      
+      width: 90%;
+      float: left;
+      padding: 20px;
+      height: fit-content;
+      margin: 20px;
+      
+      }
+      
+      .box-in{
+
+        height: fit-content;
+
+      }
+      .box-more{
+      background-color: #bc2991;
+      padding: 8px;
+      text-align: center;
+      margin-top: 5px;
+      }
+
+
+
+  }
+
+  @media screen and (max-width: 700px) {
+
+    .homebody{
+      display:block;
+      text-align: center;
+      margin: 10px;
+
+      height: 1600;
+      }
+
+
+  }
+  @media screen and (max-width: 600px) {
+
+    .homebody{
+      display:block;
+      text-align: center;
+      margin: 10px;
+
+      height: 1400;
+      }
+
+
+  }
+
+
+
+  @media screen and (max-width: 500px) {
+
+    .homebody{
+      display:block;
+      text-align: center;
+      margin: 10px;
+
+      height: 1300;
+      }
+
+
+  }
